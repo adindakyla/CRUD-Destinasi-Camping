@@ -15,6 +15,7 @@ cmds = [
 
 [phases.build]
 cmds = [
+    "php artisan storage:link",
   "npm run build"
 ]
 
